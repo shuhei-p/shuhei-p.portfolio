@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+/* Smartphone Responsive Sesign
+------------------------------- */
+@media screen and (max-width: 481px){
+    
+    /* 全体
+    ------------------------------- */
+    li{
+        list-style: none;
+    }
+    
+    h1 {
+        font-family:"Yu Mincho", 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    h2{
+        font-family:'Damion', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    body,h1,h2,ul,p{
+        margin: 0%;
+        color:rgb(255, 255, 255);
+    }
+    
+    
+    /* header
+    ------------------------------- */
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    /* page1
+    ------------------------------- */
+    .space1{
+        height: 170px;
+    }
+    
+    .page1 h1{
+        padding: 150px 100px 170px 30px;
+    }
+    
+    
+    /* home
+    ------------------------------- */
+    
+    #home{
+        background-image: url(pics/pic1_.jpg);
+        background-color: #534238;
+        background-blend-mode: hard-light;
+        min-height: 100vh;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    
+    .big-bg{
+        background-position: center top;
+    }
+    
+    #home p{
+        font-size:30px ;
+    }
+    
+    #home h1{
+        font-size:40px ;
+        color:#ffffff
+    }
+
+    .icon{
+        width: 30px;
+    }
+    
+    
+    /* 背景色
+    ------------------------------- */
+    
+    .background{
+        background-color: #000000;
+        height: 4500px;
+    }
+    
+    /* 見出し
+    ------------------------------- */
+    
+    .Heading{
+        padding-left:30px ;
+    }
+    
+    .box{
+        background-color: #ffffff;
+        height: 4px;
+        width: 200px;
+    }
+    
+    /* page2-1
+    ------------------------------- */
+    
+    .page2-1{
+        position: relative;
+        display: none;
+    }
+    
+    .page2-1 > .text{
+        position: absolute;
+        left:   40px; 
+        top: 75px; 
+        font-size:30px;
+        z-index: 3;
+        margin-right: 30px;
+    }
+    
+    .bluebox{
+        background-color: #a3aeee52;
+        width: 100px;
+        height: 600px;
+        margin-left: 20px;
+        z-index: 2;
+    }
+    
+    .page2-1 img{
+        background-color: #ffffff;
+        left:   600px; 
+        top: 200px; 
+        z-index: 1;
+        mix-blend-mode: hard-light;
+        display: none;
+    }
+    
+    /* page2-2
+    ------------------------------- */
+    
+    .page2-2{
+        position: relative;
+    }
+    
+    .page2-2 > .text{
+        position: absolute;
+        left:   40px; 
+        top: 75px; 
+        font-size: 30px;
+        z-index: 3;
+        margin-right: 30px;
+    }
+    
+    .space2{
+        height: 70px;
+    }
+    
+    .greenbox{
+        background-color: #a3eec552;
+        width: 100px;
+        height: 600px;
+        margin-left:250px;
+        z-index: 2;
+    }
+    
+    .page2-2 img{
+        background-color: #ffffff;
+        left:   300px; 
+        top: 400px; 
+        z-index: 1;
+        mix-blend-mode: hard-light;
+        display: none;
+    }
+    
+    /* page3
+    ------------------------------- */
+    
+    .page3{
+        position: relative;
+        display: none;
+    }
+    
+    .page3>.text{
+        padding-left: 40px;
+    }
+    
+    .page3 h3{
+        line-height: 2.5;
+        font-weight: 100;
+        font-size: 20px;
+    }
+    
+    .page3 img{
+        right: 50px; 
+        top: 100px; 
+        z-index: 1;
+        width: 100px;
+    }
+    
+    /* page4
+    ------------------------------- */
+    .page4{
+        display: none;
+    }
+    
+    .page4>.textbox{
+        height: 200px;
+    }
+    
+    /* フォーム
+    ------------------------------- */
+    .form {
+        width: 250px;
+        margin: auto;
+    }
+    
+     .form>.resize {
+        resize: none;
+    }
+    
+    /* footer
+    ------------------------------- */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #888888;
+    }
+    
+}
+
+
+
+
+/* pc用
+------------------------------- */
+@media screen and (min-width: 481px){
+
+    /* 全体
+    ------------------------------- */
+    li{
+        list-style: none;
+    }
+
+    h1 {
+        font-family:"Yu Mincho", 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h2{
+        font-family:'Damion', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    body,h1,h2,ul,p{
+        margin: 0%;
+        color:rgb(255, 255, 255);
+    }
+
+
+    /* header
+    ------------------------------- */
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+
+    /* page1
+    ------------------------------- */
+    .space1{
+        height: 170px;
+    }
+
+    .page1 h1{
+        padding: 150px;
+    }
+
+
+
+    /* home
+    ------------------------------- */
+
+    #home{
+        background-image: url(pics/pic1.jpeg);
+        background-color: #534238;
+        background-blend-mode: hard-light;
+        min-height: 100vh;
+        background-size: cover;
+    }
+
+    .big-bg{
+        background-position: center top;
+    }
+
+    #home p{
+        font-size:30px ;
+    }
+
+    #home h1{
+        font-size:100px ;
+        color: #ffffff;
+    }
+
+
+    /* 背景色
+    ------------------------------- */
+
+    .background{
+        background-color: #000000;
+        height: 5000px;
+    }
+
+    /* 見出し
+    ------------------------------- */
+
+    .Heading{
+        padding-left:50px ;
+    }
+
+    .box{
+        background-color: #ffffff;
+        height: 8px;
+        width: 400px;
+    }
+
+    /* page2-1
+    ------------------------------- */
+
+    .page2-1{
+        position: relative;
+        display: none;
+    }
+
+    .page2-1 > .text{
+        position: absolute;
+        left:   250px; 
+        top: 150px; 
+        font-size: 80px;
+        z-index: 3;
+    }
+
+    .bluebox{
+        background-color: #a3aeee52;
+        width: 500px;
+        height: 600px;
+        margin-left: 300px;
+        z-index: 2;
+    }
+
+    .page2-1 img{
+        background-color: #ffffff;
+        left:   600px; 
+        top: 400px; 
+        z-index: 1;
+        mix-blend-mode: hard-light;
+    }
+
+    /* page2-2
+    ------------------------------- */
+
+    .page2-2{
+        position: relative;
+    }
+
+    .page2-2 > .text{
+        position: absolute;
+        left:   250px; 
+        top: 150px; 
+        font-size: 80px;
+        z-index: 3;
+    }
+
+    .space2{
+        height: 70px;
+    }
+
+    .greenbox{
+        background-color: #a3eec552;
+        width: 500px;
+        height: 600px;
+        margin-left: 700px;
+        z-index: 2;
+    }
+
+    .page2-2 img{
+        background-color: #ffffff;
+        left:   600px; 
+        top: 400px; 
+        z-index: 1;
+        mix-blend-mode: hard-light;
+    }
+
+    /* page3
+    ------------------------------- */
+
+    .page3{
+        position: relative;
+        display: none;
+    }
+
+    .page3>.text{
+        padding-left: 280px;
+    }
+
+    .page3 h3{
+        line-height: 2.5;
+        font-weight: 100;
+    }
+
+    .page3 img{
+        right: 250px; 
+        top: 100px; 
+        z-index: 1;
+    }
+
+    /* page4
+    ------------------------------- */
+    .page4{
+        display: none;
+    }
+
+    .page4>.textbox{
+        height: 200px;
+    }
+
+    /* フォーム
+    ------------------------------- */
+    .form {
+        width: 600px;
+        margin: auto;
+    }
+
+    .form>.resize {
+        resize: none;
+    }
+
+    /* footer
+    ------------------------------- */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #888888;
+    }
+
+}
